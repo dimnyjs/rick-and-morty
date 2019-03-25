@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+html{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #688784; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #56877f 0%, #1b8979 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #56877f 0%,#1b8979 100%); /* Chrome10-80,Safari5.1-6 */
+    background: linear-gradient(135deg, #56877f 0%, #1b8979 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    height: 20%;
+    min-height: 350px;
+    padding: 2%;
+    width: 50%;
+    box-shadow: 0 0 1vh black;
+    background-color: white;
+}
+.container .character{
+    display: block;
+    width: 100%;
+    min-height: 280px;
+    max-height: 280px;
+    min-width: 10em;
+    padding: 1em;
+    background-color: rgba(128,128,128,.1);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 .1px black;
+    -moz-box-shadow: 0 0 .1px black;
+    box-shadow: 0 0 .1px black;
+}
+.container .space {
+    padding: 1%;
+    width: 31.3%;
+    float: left;
+}
+.container .space:hover{
+    cursor: pointer;
+    -webkit-transform: scale(.98);
+    -moz-transform: scale(.98);
+    -ms-transform: scale(.98);
+    -o-transform: scale(.98);
+    transform: scale(.98);
+}
+.container .character .image{
+    width: 100%;
+    min-width: 80px;
+    height: 150px;
+}
+.container .character span{
+    display: block;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+.container .character span:nth-child(2){
+  
+}
+.container .character span:nth-child(3){
+    top: 48%;
+}
+.container .pages .button {
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    border-radius: 20%;
+    border-style: none;
+    box-shadow: 0 0 1px 0 black;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    background-color: #e7f9f4;
+}
+.container .pages {
+    padding: 3px;
+}
+.container .pages .button:hover{
+    -webkit-box-shadow: 0 0 3px black;
+    -moz-box-shadow: 0 0 3px black;
+    box-shadow: 0 0 3px black ;
+    cursor: pointer;
+}
+.container .pages .button:active{
+    background-color: #cadbd6;
+    -webkit-transform: rotateX(15deg);
+    -moz-transform: rotateX(15deg);
+    -ms-transform: rotateX(15deg);
+    -o-transform: rotateX(15deg);
+    transform: rotateX(15deg);
+}
+.container .pages .select{
+    background-color: #c3dbd8;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container .space {
+        padding: 1%;
+        padding-left: 10%;
+        width: 70%;
+    }
+    .container .character .image{
+        width: 100%;
+        min-width: 80px;
+        height: 150px;
+    }
+}

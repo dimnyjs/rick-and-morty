@@ -1,7 +1,7 @@
 # rick-and-morty
-Neste repositório serão recuperados valores de uma API que serão distribuidos dinamicamente juntamente com uma paginação dos mesmos
+Neste repositório serão recuperados valores de uma API que serão distribuidos dinamicamente juntamente com uma paginação dos mesmos.
 
-<!-- Está atividade é uma avaliação que recebi em um periodo onde estava a procura de emprego. A atividade em si era para ser feita com React, mas como não possuo conhecimento da lib no momento fiz com JavaScript OO :D. Em breve irei estudar sobre React e postarei o mesmo repositório com as mesmas funções em React. Abaixo encontra-se o desafio original. -->
+Está atividade é uma avaliação que recebi em um periodo onde estava a procura de emprego. A atividade em si era para ser feita com React, mas como não possuo conhecimento da lib no momento fiz com JavaScript OO :D. Em breve irei estudar sobre React e postarei o mesmo repositório com as mesmas funções em React. Abaixo encontra-se o desafio original.
 
 ## AVALIAÇÃO
  `Objetivo Geral`:

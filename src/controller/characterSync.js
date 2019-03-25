@@ -71,16 +71,15 @@ class characterSync{
        let characterRows =  document.createElement('div');
        this.container.innerHTML = "";
        let data = this.characterLimit(response.results,page);
-           characterRows.innerHTML = data.map(result =>{
-            return `
-         <div class="space">
-             <div class="character">
-                <img class="image" src="${result.image}">
-                <span class="character_id">${result.id}</span>
-                <span class="character_name">${result.name}</span>
-                <span class="species">${result.species}</span>
-            </div>
-        </div>`
+       characterRows.innerHTML = data.map(result =>{
+         return `<div class="space">
+                     <div class="character">
+                        <img class="image" src="${result.image}">
+                        <span class="character_id">${result.id}</span>
+                        <span class="character_name">${result.name}</span>
+                        <span class="species">${result.species}</span>
+                    </div>
+                </div>`
         }).join("");
         this.container.appendChild(characterRows)
     }
